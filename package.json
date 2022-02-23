@@ -10,7 +10,8 @@
     "tbuild": "jest && ng build",
     "build": "ng build",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "mock": "json-server db.json"
   },
   "private": true,
   "dependencies": {
@@ -38,6 +39,7 @@
     "codelyzer": "^6.0.0",
     "jest": "^27.1.0",
     "jest-preset-angular": "^9.0.7",
+    "json-server": "^0.17.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
